@@ -49,7 +49,7 @@ locals {
 module "kube_prometheus_stack" {
   source = "sparkfabrik/terraform-sparkfabrik-prometheus-stack"
 
-  prometheus_stack_chart_version          = "31.0.0"
+  prometheus_stack_chart_version          = "42.3.0"
   prometheus_adapter_chart_version        = "3.0.1"
   namespace                               = "kube-prometheus-stack"
   regcred                                 = "regcred-secret"
